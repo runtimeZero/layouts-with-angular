@@ -1,0 +1,33 @@
+/*
+.tpl-mixed-view
+{
+  body
+  {
+    overflow:auto;
+  }
+
+  [tpl-application-toolbar]
+  {
+    z-index:6;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+  }
+
+  
+  [tpl-main-pane]
+  {
+    position:relative;
+    left: 144px;
+  }
+}
+
+*/
+.class_black {
+        background-color: black;
+}
+
+.class_yellow {
+        background-color: yellow;
+}

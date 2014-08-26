@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <title>Chat Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="/css/myStyles.css">
+    <style>
+      body {
+        padding-top: 60px;
+      }
+    </style>
+    
+      
+  </head>
+  <body class="class_black" ng-controller="MainCtrl">
+     <div tpl-application-toolbar> This is the header</div>
+     <div> This is the menu</div>
+     <div tpl-main-pane> This would be the ui-view</div>
+    <div> This would be the side Details</div>
+    
+    <button ng-click="change()">change</button>
+    
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
